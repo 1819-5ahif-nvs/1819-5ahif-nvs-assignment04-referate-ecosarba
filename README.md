@@ -1,6 +1,6 @@
 # Servlets, JSP
 
-# Servlets
+## Servlets
 ## Was sind Servlets?
 - Mittels Servlets können Java-Programme durch Http-Requests erreicht werden. 
 - Servlet ist eine plattformunabhängige Methode, welche für die Erstellung von webbasierten Applikationen gut geeignet ist.
@@ -40,11 +40,13 @@ Und schließlich dem Server übergeben
 Der Server übergibt dementsprechend die daraus resultierende HTML Datei dem Client
 	
 ## 3 Arten von Java-Code fragments im HTML
-Java Scriptlets
+### Java Scriptlets
 <% code fragment %>
-Java Declaration
+
+### Java Declaration
 <%! declaration; [declaration;]+…%>
-Java Expression Language 
+
+### Java Expression Language 
 <%= expression%>
 
 	Beispiel zu JSP
